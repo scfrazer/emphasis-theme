@@ -1,0 +1,26 @@
+{
+    "name": "emphasis-theme",
+    "displayName": "Emphasis Theme",
+    "description": "A theme with emphasized keywords",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Emphasis Light",
+                "uiTheme": "vs",
+                "path": "./themes/Emphasis-Light-color-theme.json"
+            },
+            {
+                "label": "Emphasis Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Emphasis-Dark-color-theme.json"
+            }
+        ]
+    }
+}
