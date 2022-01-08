@@ -2,7 +2,10 @@
     "name": "emphasis-theme",
     "displayName": "Emphasis Theme",
     "description": "A theme with emphasized keywords",
-    "version": "0.1.1",
+    "repository": {
+        "url": "https://github.com/scfrazer/emphasis-theme"
+    },
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.63.0"
     },

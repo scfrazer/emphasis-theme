@@ -20,7 +20,7 @@
 		"gitDecoration.deletedResourceForeground": "#d00000",
 		"gitDecoration.renamedResourceForeground": "#8b008b",
 		"gitDecoration.untrackedResourceForeground": "#c0c000",
-		"gitDecoration.ignoredResourceForeground": "#909090",
+		"gitDecoration.ignoredResourceForeground": "#a0a0a0",
 		"gitDecoration.conflictingResourceForeground": "#d00000",
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiRed": "#cd0000",
