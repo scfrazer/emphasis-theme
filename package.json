@@ -2,7 +2,7 @@
     "name": "emphasis-theme",
     "displayName": "Emphasis Theme",
     "description": "A theme with emphasized keywords",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.63.0"
     },
