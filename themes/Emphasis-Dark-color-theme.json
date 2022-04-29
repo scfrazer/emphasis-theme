@@ -3,9 +3,41 @@
 	"type": "dark",
 	"include": "./dark_plus.json",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBar.background": "#202631",
+		"sideBar.foreground": "#eeeeee",
+		"editor.background": "#202631",
+		"editor.foreground": "#cccccc",
+		"editorCursor.foreground": "#ff0000",
+		// "sideBar.border": "#c0c0c0",
+		// "sideBarSectionHeader.background": "#d4d4d4",
+		// "list.activeSelectionIconForeground": "#fff",
+		"editorGutter.background": "#181818",
+		"editorLineNumber.foreground": "#404040",
+		"editorLineNumber.activeForeground": "#cccccc",
+		"editorBracketMatch.border": "#00ff00",
+		// "gitDecoration.addedResourceForeground": "#008700",
+		// "gitDecoration.modifiedResourceForeground": "#0000af",
+		// "gitDecoration.deletedResourceForeground": "#d70000",
+		// "gitDecoration.renamedResourceForeground": "#87008f",
+		// "gitDecoration.untrackedResourceForeground": "#d75f00",
+		// "gitDecoration.ignoredResourceForeground": "#a0a0a0",
+		// "gitDecoration.conflictingResourceForeground": "#d70000",
+		// "terminal.ansiBlack": "#000000",
+		// "terminal.ansiRed": "#cd0000",
+		// "terminal.ansiGreen": "#005f00",
+		// "terminal.ansiYellow": "#8b8b00",
+		// "terminal.ansiBlue": "#00008b",
+		// "terminal.ansiMagenta": "#8b008b",
+		// "terminal.ansiCyan": "#008b8b",
+		// "terminal.ansiWhite": "#ffffff",
+		// "terminal.ansiBrightBlack": "#555555",
+		// "terminal.ansiBrightRed": "#ee0000",
+		// "terminal.ansiBrightGreen": "#00ee00",
+		// "terminal.ansiBrightYellow": "#eeee00",
+		// "terminal.ansiBrightBlue": "#0000ee",
+		// "terminal.ansiBrightMagenta": "#ee00ee",
+		// "terminal.ansiBrightCyan": "#00eeee",
+		// "terminal.ansiBrightWhite": "#e5e5e5",
 	},
 	"tokenColors": [
 		{
@@ -16,7 +48,28 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Comments: Preprocessor",
+			"scope": [
+				"comment.block.preprocessor",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8b8b00"
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.documentation"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a8a8a8"
 			}
 		},
 		{
@@ -26,7 +79,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#96cdcd"
 			}
 		},
 		{
@@ -35,7 +88,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#009acd"
 			}
 		},
 		{
@@ -56,7 +109,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#4f94cd",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -100,7 +154,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#9fb6cd",
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -150,7 +205,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#cdb7b5"
 			}
 		},
 		{
